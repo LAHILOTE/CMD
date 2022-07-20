@@ -1,10 +1,5 @@
-## Hapus direktori kosong
+# CMD
+## MacOs CMD
 ```
-rmdir <namadir>
-rm -d <namadir>
-```
-## Hapus direktori ada isi
-```
-rm -d -r <namadir>
-rmdir -r <namadir>
+- Penambahan Command MacOS Hapus Direktori
 ```
