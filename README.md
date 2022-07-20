@@ -1,5 +1,8 @@
 # CMD
-## [MacOs CMD](MacOS.md)
 ```
 - Penambahan Command MacOS Hapus Direktori
 ```
+
+
+# DAFTAR ISI
+## [MacOs CMD](MacOS.md)
