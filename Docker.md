@@ -15,5 +15,5 @@ EXPOSE 3000
 
 - Command Build Docker Image
 ```
-docker build -t nama:namaapp:versi .
+docker build -t nama/namaapp:versi .
 ```
