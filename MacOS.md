@@ -1,5 +1,4 @@
 # MacOS CMD
-```
 - Hapus direktori kosong
 ```
 rmdir <namadir>
@@ -9,5 +8,4 @@ rm -d <namadir>
 ```
 rm -d -r <namadir>
 rmdir -r <namadir>
-```
 ```
