@@ -17,3 +17,13 @@ EXPOSE 3000
 ```
 docker build -t nama/namaapp:versi .
 ```
+
+- Command Melihat Image Docker yang sudah di build
+```
+docker image ls
+```
+
+- Command Run Docker Image
+```
+docker run -d -p <port digunakan>:<port expose> --name <nama container> <nama:namaapp:versi>
+```
