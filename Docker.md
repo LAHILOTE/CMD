@@ -25,5 +25,5 @@ docker image ls
 
 - Command Run Docker Image
 ```
-docker run -d -p <port digunakan>:<port expose> --name <nama container> <nama:namaapp:versi>
+docker run -d -p <port digunakan>:<port expose> --name <nama container> <nama/namaapp:versi>
 ```
