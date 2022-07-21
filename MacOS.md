@@ -9,3 +9,7 @@ rm -d <namadir>
 rm -d -r <namadir>
 rmdir -r <namadir>
 ```
+- Menggunakan nmap
+```
+nmap <iptarget>
+```

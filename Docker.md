@@ -13,17 +13,37 @@ CMD [“npm”, “start”]
 EXPOSE 3000
 ```
 
+- Isi .dockerignore
+```
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.gitignore
+.git
+```
+
 - Command Build Docker Image
 ```
-docker build -t nama/namaapp:versi .
+docker build -t your_dockerhub_username/nodejs-image-demo .
 ```
 
 - Command Melihat Image Docker yang sudah di build
 ```
-docker image ls
+docker images
 ```
 
-- Command Run Docker Image
+- Command List all Images
 ```
-docker run -d -p <port digunakan>:<port expose> --name <nama container> <nama/namaapp:versi>
+docker images -a
+```
+
+- Command Build Container
+```
+docker run --name nodejs-image-demo -p 80:8080 -d your_dockerhub_username/nodejs-image-demo
+```
+
+- Command Check List Running Containers
+```
+docker ps
 ```
